@@ -1,5 +1,5 @@
 #Task1
-**Perform extensive scan of the target network and identify the FQDN of the Domain Controller
+**Perform an extensive scan of the target network and identify the FQDN of the Domain Controller**
 
 nmap -p389 –sV -iL <target_list>  OR   nmap -p389 –sV <target_IP> (Find the FQDN in a subnet/network)  
 
