@@ -30,4 +30,8 @@ login in this ip with the credentials --> 10.19.41.25 --> ekta text file ache, o
 https:/10.19.41.31:8834/ --> user: wizard password: admin --> new scan --> basic network scan --> je IP scan korte bolbe oita save korbo with a specific name --> MyScan theke je naam e save koreche open kore --> launch --> report
 
 #Task5
-** **
+**A file named Secret.txt has been uploaded through DVWA (http://10.19.41.36/vulnerabilities/upload/). The file is located in the "C:\wamp64\www\DVWA\hackable\uploads\" directory. Access the file and crack the MD5 hash to reveal the original message. Enter the decrypted message as the answer. You can log into the DVWA using the credentials admin/password**
+
+http://10.19.41.36 --> user:admin/password:password --> set dvwa security to "low" and click submit --> go to "upload" --> upload any small file (low quality image/ text file) --> upload korar por ekta url ashbe niche oitar just "../../hackable/uploads/" ei tuku copy kore will paste after "http://10.19.41.36" --> browser e hit korbo --> open secret.txt file --> hash file niye hashes.com theke decrypt korbo --> Then you have your answer
+
+
