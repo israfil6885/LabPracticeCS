@@ -1,7 +1,7 @@
 #Task1&2
 **Perform an extensive scan of the target network and identify the FQDN of the Domain Controller && identify the Product Version of the Domain Controller**
 
-nmap -sC -sV -p- -v -A -T4 -oX Oct1-24.html <IP_address>
+nmap -sC -sV -p- -v -A -T4 -oX Oct1-24.xml <IP_address>
 --> look for FQDN and look for OS version 
 
 #Task3
